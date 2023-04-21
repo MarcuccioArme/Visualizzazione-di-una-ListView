@@ -51,10 +51,10 @@ public class HomePageController {
         //Chiamiamo il controller "ListViewController"
         ListViewController listViewController = loader.getController();
 
-        //Chiamiamo la funzione "setElencoNomi" passando per parametro la Vector
+        //Chiamiamo la funzione "setElencoNomi" in ListViewController passando per parametro la Vector
         listViewController.setElencoNomi(elencoNomi);
 
-        //Chiamiamo la funzione "visualizzaNomi" che inserisce i nomi nella ListView
+        //Chiamiamo la funzione "visualizzaNomi" in ListViewController che inserisce i nomi nella ListView
         listViewController.visualizzaNomi();
 
         //Settiamo come scena attuale "ListView.fxml"
