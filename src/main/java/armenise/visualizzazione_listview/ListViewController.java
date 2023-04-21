@@ -23,6 +23,7 @@ public class ListViewController {
     @FXML
     private ListView<String> listaNomiView;
 
+    //Per settare "elencoNomi"
     public void setElencoNomi(Vector<String> elencoNomi) {
         this.elencoNomi = elencoNomi;
     }
