@@ -28,10 +28,10 @@ public class HomePageController {
         elencoNomi.add("Luca Bianchi");
         elencoNomi.add("Matteo Verdi");
         elencoNomi.add("Davide Neri");
-        elencoNomi.add("Andrea Fucsia");
+        elencoNomi.add("Andrea Grigi");
         elencoNomi.add("Giulia Gialli");
-        elencoNomi.add("Marco Celeste");    //:P
-        elencoNomi.add("Sara Bluastro");
+        elencoNomi.add("Marco Celesti");    //:P
+        elencoNomi.add("Sara Bluastri");
         elencoNomi.add("Alessio Azzurri");
         elencoNomi.add("Valentina Verdi");
         elencoNomi.add("Fabio Arancioni");
