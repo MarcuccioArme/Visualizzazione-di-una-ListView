@@ -6,10 +6,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="armenise.visualizzazione_listview.HomePageController">
    <children>
-      <Button layoutX="93.0" layoutY="230.0" mnemonicParsing="false" onAction="#riempiLista" text="RIEMPI LISTA">
+      <Button layoutX="93.0" layoutY="230.0" mnemonicParsing="false" onAction="#riempiVector" text="RIEMPI LISTA">
          <font>
             <Font size="24.0" />
          </font>

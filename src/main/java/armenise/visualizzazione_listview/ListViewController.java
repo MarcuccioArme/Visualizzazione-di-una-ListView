@@ -16,8 +16,10 @@ import java.util.Vector;
 
 public class ListViewController {
 
+    //Dichiariamo la variabile "elencoNomi" di tipo Vector<String>
     private Vector<String> elencoNomi;
 
+    //Dichiariamo la ListView "listaNomiView" di tipo String
     @FXML
     private ListView<String> listaNomiView;
 
@@ -25,16 +27,21 @@ public class ListViewController {
         this.elencoNomi = elencoNomi;
     }
 
+    //Per visualizzare i nomi
     public void visualizzaNomi() {
+
+        //SE la Vector è vuota stampiamo "La lista è vuota" ALTRIMENTI riempiamo la ListView con gli item "nomi"
         if (elencoNomi.isEmpty()) {
             System.out.println("La lista è vuota");
         }else{
             ObservableList<String> nomi = FXCollections.observableArrayList(elencoNomi);
             listaNomiView.getItems().addAll(nomi);
         }
+
     }
 
     /*
+    //Per tornare alla HomePage
     @FXML
     private void tornaAllaHome(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage.fxml"));
