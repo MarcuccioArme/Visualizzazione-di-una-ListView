@@ -57,7 +57,7 @@ public class HomePageController {
         //Chiamiamo la funzione "visualizzaNomi" in ListViewController che inserisce i nomi nella ListView
         listViewController.visualizzaNomi();
 
-        //Settiamo come scena attuale "ListView.fxml"
+        //Impostiamo come scena attuale "ListView.fxml"
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene = new Scene(root);
         stage.setScene(scene);
